@@ -11,6 +11,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./page": "./src/board/index.ts",
+        "./eager": "./src/board/eager.ts",
       },
       shared: {
         react: {
